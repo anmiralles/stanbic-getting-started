@@ -1,10 +1,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  annotations:
   labels:
     app: stanbic-getting-started
-    app.kubernetes.io/component: web
     app.kubernetes.io/instance: stanbic-getting-started
     app.kubernetes.io/name: stanbic-getting-started
     app.kubernetes.io/part-of: stanbic-getting-started
